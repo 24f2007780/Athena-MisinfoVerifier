@@ -1,0 +1,24 @@
+2025-08-25 13:48:00,218 | INFO | fact_checker.test | Smoke test: pipeline logging write
+2025-08-25 13:59:59 | INFO | fact_checker.nodes.google_evidence_retriever | Using fallback embedding method (cosine similarity on text)
+2025-08-25 13:59:59 | INFO | __main__ | Enhanced claim verifier initialized successfully
+2025-08-25 13:59:59 | INFO | __main__ | Verifying 4 claims in parallel
+2025-08-25 13:59:59 | INFO | __main__ | Verifying claim: A recent controversial bill in India imposes automatic disqualification on elected representatives who are merely accused in criminal cases, raising debates on presumption of innocence and federal powers.
+2025-08-25 13:59:59 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieving evidence for query: A recent controversial bill in India imposes automatic disqualification on elected representatives who are merely accused in criminal cases, raising debates on presumption of innocence and federal powers.
+2025-08-25 14:00:00 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 10 results for query: A recent controversial bill in India imposes automatic disqualification on elected representatives who are merely accused in criminal cases, raising debates on presumption of innocence and federal powers.
+2025-08-25 14:00:00 | INFO | fact_checker.nodes.google_evidence_retriever | Re-ranked 10 documents
+2025-08-25 14:00:00 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 5 evidence documents
+2025-08-25 14:00:00 | INFO | __main__ | Verifying claim: Medieval European guilds allegedly endorsed the use of candles made from unusual materials like pressed flowers, but later ecclesiastical bans attributed to smoke concerns are inconsistently recorded across regions.
+2025-08-25 14:00:00 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieving evidence for query: Medieval European guilds allegedly endorsed the use of candles made from unusual materials like pressed flowers, but later ecclesiastical bans attributed to smoke concerns are inconsistently recorded across regions.
+2025-08-25 14:00:01 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 10 results for query: Medieval European guilds allegedly endorsed the use of candles made from unusual materials like pressed flowers, but later ecclesiastical bans attributed to smoke concerns are inconsistently recorded across regions.
+2025-08-25 14:00:01 | INFO | fact_checker.nodes.google_evidence_retriever | Re-ranked 10 documents
+2025-08-25 14:00:01 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 5 evidence documents
+2025-08-25 14:00:01 | INFO | __main__ | Verifying claim: Venus rotates on its axis so slowly and in the opposite direction to most planets, resulting in a solar day that exceeds its orbital year duration, a fact often misunderstood in textbooks.
+2025-08-25 14:00:01 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieving evidence for query: Venus rotates on its axis so slowly and in the opposite direction to most planets, resulting in a solar day that exceeds its orbital year duration, a fact often misunderstood in textbooks.
+2025-08-25 14:00:02 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 10 results for query: Venus rotates on its axis so slowly and in the opposite direction to most planets, resulting in a solar day that exceeds its orbital year duration, a fact often misunderstood in textbooks.
+2025-08-25 14:00:02 | INFO | fact_checker.nodes.google_evidence_retriever | Re-ranked 10 documents
+2025-08-25 14:00:02 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 5 evidence documents
+2025-08-25 14:00:02 | INFO | __main__ | Verifying claim: Recent satellite imagery suggests that once-stable polar ice caps are showing unexpected seasonal regrowth, sparking debates among climate scientists about short-term variability versus long-term trends.
+2025-08-25 14:00:02 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieving evidence for query: Recent satellite imagery suggests that once-stable polar ice caps are showing unexpected seasonal regrowth, sparking debates among climate scientists about short-term variability versus long-term trends.
+2025-08-25 14:00:03 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 10 results for query: Recent satellite imagery suggests that once-stable polar ice caps are showing unexpected seasonal regrowth, sparking debates among climate scientists about short-term variability versus long-term trends.
+2025-08-25 14:00:03 | INFO | fact_checker.nodes.google_evidence_retriever | Re-ranked 10 documents
+2025-08-25 14:00:03 | INFO | fact_checker.nodes.google_evidence_retriever | Retrieved 5 evidence documents

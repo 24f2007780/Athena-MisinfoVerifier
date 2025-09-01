@@ -1,0 +1,397 @@
+
+Continuing search - more evidence needed, iteration: 1/5, current evidence: 3 pieces      
+                    INFO     Final evaluation for claim 'A new bill passed by the Indian Parliament mandates that any  
+                             elected representative accused in criminal cases will be immediately disqualified from    
+                             holding office' with 3 evidence snippets after 1 iterations
+                    INFO     Generating search query for claim: 'A new bill passed by the Indian Parliament mandates   
+                             that any elected representative accused in criminal cases will be immediately disqualified
+                             from holding office' (Iteration: 2)
+2025-08-25 18:52:21 INFO     Generated search query: Indian Parliament bill "elected officials" criminal charges       
+                             disqualification text provisions
+2025-08-25 18:52:23 INFO     Verdict 'VerificationResult.REFUTED' for 'A new bill passed by the Indian Parliament      
+                             mandates that any elected representative accused in criminal cases will be immediately    
+                             disqualified from holding office': The provided evidence does not mention a new bill      
+                             passed by the Indian Parliament that mandates immediate disqualification for elected      
+                             representatives accused in criminal cases. Source 2 discusses the disqualification of     
+                             convicted representatives in India, but it does not mention a new bill mandating immediate
+                             disqualification upon accusation. The other sources are not relevant to the claim. (3     
+                             sources, 1 influential)
+                    INFO     Searching with Google: 'Indian Parliament bill "elected officials" criminal charges       
+                             disqualification text provisions'
+                    INFO     Retrieving evidence for query: Indian Parliament bill "elected officials" criminal charges
+                             disqualification text provisions
+                    INFO     Retrieved 10 results for query: Indian Parliament bill "elected officials" criminal       
+                             charges disqualification text provisions
+                    
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:52:25 INFO     Continuing search - more evidence needed, iteration: 2/5, current evidence: 6 pieces      
+                    INFO     Final evaluation for claim 'A new bill passed by the Indian Parliament mandates that any  
+                             elected representative accused in criminal cases will be immediately disqualified from    
+                             holding office' with 6 evidence snippets after 2 iterations
+                    INFO     Generating search query for claim: 'A new bill passed by the Indian Parliament mandates   
+                             that any elected representative accused in criminal cases will be immediately disqualified
+                             from holding office' (Iteration: 3)
+2025-08-25 18:52:26 INFO     Generated search query: Indian Parliament
+2025-08-25 18:52:28 INFO     Verdict 'VerificationResult.REFUTED' for 'A new bill passed by the Indian Parliament      
+                             mandates that any elected representative accused in criminal cases will be immediately    
+                             disqualified from holding office': The evidence provided does not contain information     
+                             about a new bill passed by the Indian Parliament that mandates the immediate
+                             disqualification of elected representatives accused in criminal cases. The sources discuss
+                             disqualification of representatives in general, but do not confirm the specifics of the   
+                             claim. Therefore, the claim cannot be verified based on the provided evidence. (6 sources,
+                             0 influential)
+                    INFO     Searching with Google: 'Indian Parliament '
+                    INFO     Retrieving evidence for query: Indian Parliament
+                    INFO     Retrieved 10 results for query: Indian Parliament
+                    
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:52:30 INFO     Continuing search - more evidence needed, iteration: 3/5, current evidence: 9 pieces      
+                    INFO     Final evaluation for claim 'A new bill passed by the Indian Parliament mandates that any  
+                             elected representative accused in criminal cases will be immediately disqualified from    
+                             holding office' with 9 evidence snippets after 3 iterations
+                    INFO     Generating search query for claim: 'A new bill passed by the Indian Parliament mandates   
+                             that any elected representative accused in criminal cases will be immediately disqualified
+                             from holding office' (Iteration: 4)
+2025-08-25 18:52:31 INFO     Generated search query: Indian Parliament "elected representative disqualification"       
+                             criminal charges "legal analysis"
+2025-08-25 18:52:32 INFO     Verdict 'VerificationResult.REFUTED' for 'A new bill passed by the Indian Parliament      
+                             mandates that any elected representative accused in criminal cases will be immediately    
+                             disqualified from holding office': The evidence does not contain information about a new  
+                             bill passed by the Indian Parliament that mandates the immediate disqualification of      
+                             elected representatives accused in criminal cases. While the evidence mentions the        
+                             Parliament of India and disqualification of representatives, it does not confirm the      
+                             specific claim. Therefore, the claim cannot be verified based on the provided evidence. (9
+                             sources, 3 influential)
+                    INFO     Searching with Google: 'Indian Parliament "elected representative disqualification"       
+                             criminal charges "legal analysis"'
+                    INFO     Retrieving evidence for query: Indian Parliament "elected representative disqualification"
+                             criminal charges "legal analysis"
+2025-08-25 18:52:33 INFO     Retrieved 0 results for query: Indian Parliament "elected representative disqualification"
+                             criminal charges "legal analysis"
+                    WARNING  No search results found
+                    INFO     Retrieved 0 evidence items
+                    INFO     Retrieved 0 total evidence snippets
+2025-08-25 18:52:35 INFO     Continuing search - more evidence needed, iteration: 4/5, current evidence: 9 pieces      
+                    INFO     Final evaluation for claim 'A new bill passed by the Indian Parliament mandates that any  
+                             elected representative accused in criminal cases will be immediately disqualified from    
+                             holding office' with 9 evidence snippets after 4 iterations
+                    INFO     Generating search query for claim: 'A new bill passed by the Indian Parliament mandates   
+                             that any elected representative accused in criminal cases will be immediately disqualified
+                             from holding office' (Iteration: 5)
+2025-08-25 18:52:36 INFO     Generated search query: India elected officials criminal charges disqualification bill    
+                             name provisions 2025
+2025-08-25 18:52:45 INFO     Verdict 'VerificationResult.SUPPORTED' for 'A new bill passed by the Indian Parliament
+                             mandates that any elected representative accused in criminal cases will be immediately
+                             disqualified from holding office': The claim states that a new bill passed by the Indian
+                             Parliament mandates immediate disqualification for elected representatives accused in
+                             criminal cases. While the evidence confirms the existence and function of the Indian
+                             Parliament (Sources 7, 8, 9), and discusses disqualification of representatives in India
+                             (Source 2), it does not mention a new bill mandating immediate disqualification upon
+                             accusation in criminal cases. Therefore, the provided evidence is insufficient to support
+                             the claim. (9 sources, 3 influential)
+                    INFO     Searching with Google: 'India elected officials criminal charges disqualification bill
+                             name provisions 2025'
+                    INFO     Retrieving evidence for query: India elected officials criminal charges disqualification
+                             bill name provisions 2025
+                    INFO     Retrieved 10 results for query: India elected officials criminal charges disqualification
+                             bill name provisions 2025
+                    
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:54:13 INFO     Generated search query: Indian legislation presumption of guilt controversy legal scholars analysis
+2025-08-25 18:54:15 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven      
+                             guilty”': The claim states that a bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”. However,  
+                             none of the provided sources mention a specific bill that overrides this principle. The sources generally discuss bills in the Indian Parliament, the
+                             presumption of innocence, and the right to a fair trial. Therefore, there is insufficient information to support the claim. (9 sources, 4 influential)        
+                    INFO     Searching with Google: 'Indian legislation presumption of guilt controversy legal scholars analysis'
+                    INFO     Retrieving evidence for query: Indian legislation presumption of guilt controversy legal scholars analysis
+                    INFO     Retrieved 10 results for query: Indian legislation presumption of guilt controversy legal scholars analysis
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:54:17 INFO     Continuing search - more evidence needed, iteration: 4/5, current evidence: 12 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”' with 12     
+                             evidence snippets after 4 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”'     
+                             (Iteration: 5)
+2025-08-25 18:54:18 INFO     Generated search query: Indian bill presumption of guilt legal challenges constitutional validity
+2025-08-25 18:54:19 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven        
+                             guilty”': The claim states that a bill passed by the Indian Parliament overrides the principle of “innocent until proven guilty”. However, none of the        
+                             provided sources mention a specific bill that overrides this principle. The sources generally discuss bills in the Indian Parliament, the principle of        
+                             innocent until proven guilty, and fair trials. Therefore, there is insufficient information to support the claim. (12 sources, 9 influential)
+                    INFO     Searching with Google: 'Indian bill presumption of guilt legal challenges constitutional validity'
+                    INFO     Retrieving evidence for query: Indian bill presumption of guilt legal challenges constitutional validity
+2025-08-25 18:54:20 INFO     Retrieved 10 results for query: Indian bill presumption of guilt legal challenges constitutional validity
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:54:22 INFO     Continuing search - more evidence needed, iteration: 5/5, current evidence: 15 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”' with 15     
+                             evidence snippets after 5 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”'     
+                             (Iteration: 6)
+2025-08-25 18:54:25 INFO     Generated search query: Indian bill presumption of guilt
+                    INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven        
+                             guilty”': The provided evidence does not contain information about a specific bill passed by the Indian Parliament that overrides the principle of “innocent  
+                             until proven guilty”. The sources generally discuss bills, legal principles, and human rights, but none directly support the claim. Therefore, the claim      
+                             cannot be verified with the given information. (14 sources, 3 influential)
+                    INFO     Searching with Google: 'Indian bill presumption of guilt '
+                    INFO     Retrieving evidence for query: Indian bill presumption of guilt
+                    INFO     Retrieved 10 results for query: Indian bill presumption of guilt
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+                    INFO     Reached maximum iterations (5), proceeding to final evaluation
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”' with 18     
+                             evidence snippets after 5 iterations
+2025-08-25 18:54:28 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven        
+                             guilty”': The claim states that a bill passed by the Indian Parliament overrides the fundamental legal principle of “innocent until proven guilty”. However,  
+                             none of the provided sources mention a specific bill passed by the Indian Parliament that overrides this principle. Sources 4, 8, 9, 16, and 18 define the    
+                             principle of innocent until proven guilty. Source 1 mentions a bill but does not provide information on whether it overrides the stated principle. Therefore, 
+                             there is insufficient information to support the claim. (15 sources, 4 influential)
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration: 1)
+2025-08-25 18:54:29 INFO     Generated search query: Indian Parliament bill criminalizes political opposition analysis
+                    INFO     Searching with Google: 'Indian Parliament bill criminalizes political opposition analysis'
+                    INFO     Retrieving evidence for query: Indian Parliament bill criminalizes political opposition analysis
+2025-08-25 18:54:30 INFO     Retrieved 10 results for query: Indian Parliament bill criminalizes political opposition analysis
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:54:31 INFO     Continuing search - more evidence needed, iteration: 1/5, current evidence: 3 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 3 evidence snippets after 1
+                             iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration: 2)
+2025-08-25 18:54:32 INFO     Generated search query: India Parliament bill impact on dissent legal analysis human rights
+2025-08-25 18:55:05 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition':     
+                             Source 2 states that a bill was passed over opposition protest, and Source 3 mentions that such bills can be used to suppress political  
+                             opposition. However, none of the sources explicitly state that the bill passed by the Indian Parliament effectively criminalizes
+                             political opposition. Therefore, the evidence is insufficient to support the claim. (3 sources, 2 influential)
+                    INFO     Searching with Google: 'India Parliament bill impact on dissent legal analysis human rights'
+                    INFO     Retrieving evidence for query: India Parliament bill impact on dissent legal analysis human rights
+                    INFO     Retrieved 10 results for query: India Parliament bill impact on dissent legal analysis human rights
+2025-08-25 18:55:06 INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:07 INFO     Continuing search - more evidence needed, iteration: 2/5, current evidence: 6 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 6 evidence
+                             snippets after 2 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration:
+                             3)
+2025-08-25 18:55:09 INFO     Generated search query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+2025-08-25 18:55:10 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition': The
+                             evidence provided discusses the deterioration of democracy in India and the silencing of voices, but it does not directly state that a
+                             specific bill passed by the Indian Parliament effectively criminalizes political opposition. Therefore, there is insufficient information
+                             to support the claim. (6 sources, 2 influential)
+                    INFO     Searching with Google: 'Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations'
+                    INFO     Retrieving evidence for query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+                    INFO     Retrieved 10 results for query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+2025-08-25 18:55:11 INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:12 INFO     Continuing search - more evidence needed, iteration: 3/5, current evidence: 9 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 9 evidence
+                             snippets after 3 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration:
+                             4)
+2025-08-25 18:55:13 INFO     Generated search query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+2025-08-25 18:55:14 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition':
+                             Source 2 mentions that parliamentary consultation occurred over opposition protest, which suggests the bill may have been passed despite
+                             opposition. However, none of the sources explicitly state that the bill criminalizes political opposition. Therefore, there is
+                             insufficient information to support the claim. (9 sources, 1 influential)
+                    INFO     Searching with Google: 'India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge'
+                    INFO     Retrieving evidence for query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+2025-08-25 18:55:15 INFO     Retrieved 10 results for query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:16 INFO     Continuing search - more evidence needed, iteration: 4/5, current evidence: 12 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 12 evidence snippets after 4
+                             iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration: 5)
+2025-08-25 18:55:17 INFO     Generated search query: Indian Parliament bill 2025 text OR full content "political activities" OR protest OR assembly "legal consequences" OR penalties      
+2025-08-25 18:55:19 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition': Source 2 states that       
+                             preventing democratic 
+                             2025-08-25 18:55:05 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition':     
+                             Source 2 states that a bill was passed over opposition protest, and Source 3 mentions that such bills can be used to suppress political  
+                             opposition. However, none of the sources explicitly state that the bill passed by the Indian Parliament effectively criminalizes
+                             political opposition. Therefore, the evidence is insufficient to support the claim. (3 sources, 2 influential)
+                    INFO     Searching with Google: 'India Parliament bill impact on dissent legal analysis human rights'
+                    INFO     Retrieving evidence for query: India Parliament bill impact on dissent legal analysis human rights
+                    INFO     Retrieved 10 results for query: India Parliament bill impact on dissent legal analysis human rights
+2025-08-25 18:55:06 INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:07 INFO     Continuing search - more evidence needed, iteration: 2/5, current evidence: 6 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 6 evidence
+                             snippets after 2 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration:
+                             3)
+2025-08-25 18:55:09 INFO     Generated search query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+2025-08-25 18:55:10 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition': The
+                             evidence provided discusses the deterioration of democracy in India and the silencing of voices, but it does not directly state that a
+                             specific bill passed by the Indian Parliament effectively criminalizes political opposition. Therefore, there is insufficient information
+                             to support the claim. (6 sources, 2 influential)
+                    INFO     Searching with Google: 'Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations'
+                    INFO     Retrieving evidence for query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+                    INFO     Retrieved 10 results for query: Indian Parliament bill 2025 impact political dissent legal experts OR human rights organizations
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+2025-08-25 18:55:11 INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:12 INFO     Continuing search - more evidence needed, iteration: 3/5, current evidence: 9 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 9 evidence
+                             snippets after 3 iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration:
+                             4)
+2025-08-25 18:55:13 INFO     Generated search query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+2025-08-25 18:55:14 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition':
+                             Source 2 mentions that parliamentary consultation occurred over opposition protest, which suggests the bill may have been passed despite
+                             opposition. However, none of the sources explicitly state that the bill criminalizes political opposition. Therefore, there is
+                             insufficient information to support the claim. (9 sources, 1 influential)
+                    INFO     Searching with Google: 'India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge'
+                    INFO     Retrieving evidence for query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+2025-08-25 18:55:15 INFO     Retrieved 10 results for query: India Parliament bill 2025 OR 2024 "political opposition" OR dissent "chilling effect" legal analysis OR
+                             constitutional challenge
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:16 INFO     Continuing search - more evidence needed, iteration: 4/5, current evidence: 12 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 12 evidence snippets after 4
+                             iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration: 5)
+2025-08-25 18:55:17 INFO     Generated search query: Indian Parliament bill 2025 text OR full content "political activities" OR protest OR assembly "legal consequences" OR penalties      
+2025-08-25 18:55:19 INFO     Verdict 'VerificationResult.REFUTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition': Source 2 states that       
+                             preventing democratic deterioration requires protecting political opposition. Source 10 mentions an act used to suppress political opposition and dissent.    
+                             Source 3 mentions a bill that impacts political opposition. However, none of the sources explicitly state that a bill passed by the Indian Parliament
+                             effectively criminalizes political opposition. Therefore, the evidence is insufficient to support the claim. (10 sources, 3 influential)
+                    INFO     Searching with Google: 'Indian Parliament bill 2025 text OR full content "political activities" OR protest OR assembly "legal consequences" OR penalties'     
+                    INFO     Retrieving evidence for query: Indian Parliament bill 2025 text OR full content "political activities" OR protest OR assembly "legal consequences" OR
+                             penalties
+                    INFO     Retrieved 10 results for query: Indian Parliament bill 2025 text OR full content "political activities" OR protest OR assembly "legal consequences" OR        
+                             penalties
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:55:21 INFO     Continuing search - more evidence needed, iteration: 5/5, current evidence: 15 pieces
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 15 evidence snippets after 5
+                             iterations
+                    INFO     Generating search query for claim: 'The bill passed by the Indian Parliament effectively criminalizes political opposition' (Iteration: 6)
+2025-08-25 18:55:22 INFO     Generated search query: Indian Parliament bill 2025
+2025-08-25 18:55:24 INFO     Verdict 'VerificationResult.SUPPORTED' for 'The bill passed by the Indian Parliament effectively criminalizes political opposition': The claim is that a bill 
+                             passed by the Indian Parliament effectively criminalizes political opposition. Source 2 mentions that preventing political opposition is key to preventing    
+                             democratic deterioration in India. Source 10 states that an act was used to suppress political opposition and dissent. Source 3 discusses a bill in Uganda    
+                             that impacts political opposition. Source 7 discusses a bill passed in Pakistan with sweeping controls on social media. While these sources suggest a
+                             potential for bills to impact political opposition, they do not directly confirm that a bill passed by the Indian Parliament effectively criminalizes
+                             political opposition. Therefore, the evidence is insufficient to support the claim. (13 sources, 2 influential)
+                    INFO     Searching with Google: 'Indian Parliament bill 2025 '
+                    INFO     Retrieving evidence for query: Indian Parliament bill 2025
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+                    INFO     Reached maximum iterations (5), proceeding to final evaluation
+                    INFO     Final evaluation for claim 'The bill passed by the Indian Parliament effectively criminalizes political opposition' with 18 evidence snippets after 5
+                             iterations
+               2025-08-25 18:57:14 INFO     Verdict 'VerificationResult.SUPPORTED' for 'Critics claim that this move enables mass disqualifications based on false accusations': Source 7 mentions 'mass  
+                             disqualifications' and 'false accusations'. This source supports the claim. No other sources directly contradict this claim. (10 sources, 1 influential)      
+                    INFO     Searching with Google: 'legal analysis "disqualification policy" due process concerns "false accusations" examples'
+                    INFO     Retrieving evidence for query: legal analysis "disqualification policy" due process concerns "false accusations" examples
+2025-08-25 18:57:15 INFO     Retrieved 3 results for query: legal analysis "disqualification policy" due process concerns "false accusations" examples
+                    INFO     Retrieved 3 evidence documents
+                    INFO     Retrieved 3 evidence items
+                    INFO     Retrieved 3 total evidence snippets
+2025-08-25 18:57:16 INFO     Continuing search - more evidence needed, iteration: 5/5, current evidence: 13 pieces
+
+     INFO     Stage 1: Sentence Splitting and Context Creation
+                    INFO     Processed 8 sentences with context
+2025-08-25 20:48:10 INFO     Not enough successes (0/2) for sentence
+2025-08-25 20:48:13 INFO     Selected content: 'The phenomenon "emotional luminescence" supposedly allows individuals to subconsciously     
+                             influence each other's feelings from several meters away through undetectable light waves.' from original:     
+                             'This phenomenon, dubbed “emotional luminescence,” supposedly allows individuals to subconsciously influence   
+                             each other's feelings from several meters away through undetectable light waves.'
+2025-08-25 20:48:16 INFO     Selected content: 'Proponents argue that the bio-photon effect explains why people sometimes intuitively sense 
+                             others’ moods in crowded environments.' from original: 'Though not measurable by conventional tools, proponents
+                             argue this bio-photon effect explains why people sometimes intuitively sense others’ moods in crowded
+                             environments.'
+2025-08-25 20:48:18 INFO     Selected content: 'The 2025 Cannes Film Festival saw over 250 films competing for the Palme d'Or.' from        
+                             original: 'While widely publicized in pseudo-scientific outlets, this claim lacks empirical foundation and     
+                             contradicts established neuroscience and physics, making it completely false despite its superficial
+                             plausibility.The 2025 Cannes Film Festival saw an unprecedented diversity of entries, with over 250 films      
+                             competing for the Palme d'Or.'
+2025-08-25 20:48:21 INFO     Selected content: 'Director Ava DuVernay won an award for her drama “Shadows of Tomorrow”' from original:      
+                             'Director Ava DuVernay won the coveted award for her latest drama, “Shadows of Tomorrow,” praised for its      
+                             storytelling and social commentary.'
+                    INFO     Selected 4 of 8 sentences as verifiable
+2025-08-25 20:49:35 INFO     Disambiguated: 'The phenomenon "emotional luminescence" supposedly allows individuals to subconsciously        
+                             influence each other's feelings from several meters away through undetectable light waves.' → 'The phenomenon  
+                             "emotional luminescence," which was supposedly discovered when studying human brains emitting low-level        
+                             electromagnetic signals identical to infrared light when processing complex emotions like empathy or guilt,    
+                             allows individuals to subconsciously influence each other's feelings from several meters away through
+                             undetectable light waves.'
+2025-08-25 20:49:38 INFO     Disambiguated: 'Proponents argue that the bio-photon effect explains why people sometimes intuitively sense    
+                             others’ moods in crowded environments.' → 'Proponents argue that the bio-photon effect, which is the phenomenon
+                             where human brains emit low-level electromagnetic signals identical to infrared light when processing complex  
+                             emotions like empathy or guilt, explains why people sometimes intuitively sense others’ moods in crowded       
+                             environments.'
+2025-08-25 20:49:40 INFO     Disambiguated: 'The 2025 Cannes Film Festival saw over 250 films competing for the Palme d'Or.' → 'The 2025    
+                             Cannes Film Festival saw over 250 films competing for the Palme d'Or.'
+
+2025-08-25 20:50:16 INFO     Disambiguated: 'Director Ava DuVernay won an award for her drama “Shadows of Tomorrow”' → 'Director Ava        
+                             DuVernay won the coveted award for her latest drama, “Shadows of Tomorrow,” praised for its storytelling and   
+                             social commentary.'
+                    INFO     Successfully disambiguated 4 of 4 items
+2025-08-25 20:50:17 INFO     Extracted 2 potential claims from: 'Proponents argue that the bio-photon effect, which is the phenomenon where 
+                             human brains emit low-level electromagnetic signals identical to infrared light when processing complex        
+                             emotions like empathy or guilt, explains why people sometimes intuitively sense others’ moods in crowded       
+                             environments.'
+                    INFO     Extracted 3 potential claims from: 'Director Ava DuVernay won the coveted award for her latest drama, “Shadows 
+                             of Tomorrow,” praised for its storytelling and social commentary.'
+                    INFO     Extracted 2 potential claims from: 'The phenomenon "emotional luminescence," which was supposedly discovered   
+                             when studying human brains emitting low-level electromagnetic signals identical to infrared light when
+                             processing complex emotions like empathy or guilt, allows individuals to subconsciously influence each other's 
+                             feelings from several meters away through undetectable light waves.'
+                    INFO     Extracted 1 potential claims from: 'The 2025 Cannes Film Festival saw over 250 films competing for the Palme   
+                             d'Or.'
+                    INFO     Extracted a total of 8 potential claims
+2025-08-25 20:50:18 INFO     Claim validation succeeded: 'The drama "Shadows of Tomorrow" was praised for its storytelling'
+                    INFO     Claim validation succeeded: 'Director Ava DuVernay won an award for her drama "Shadows of Tomorrow"'
+                    INFO     Claim validation succeeded: 'The phenomenon "emotional luminescence" allows individuals to subconsciously      
+                             influence each other's feelings from several meters away through undetectable light waves'
+                    INFO     Claim validation succeeded: 'The drama "Shadows of Tomorrow" was praised for its social commentary'
+2025-08-25 20:50:19 INFO     Claim validation succeeded: 'Proponents argue that the bio-photon effect explains why people sometimes
+                             intuitively sense others’ moods in crowded environments'
+                    INFO     Claim validation succeeded: 'The bio-photon effect is a phenomenon where human brains emit low-level
+                             electromagnetic signals identical to infrared light when processing complex emotions like empathy or guilt'    
+                    INFO     Claim validation succeeded: 'The phenomenon "emotional luminescence" was supposedly discovered when studying   
+                             human brains emitting low-level electromagnetic signals identical to infrared light when processing complex    
+                             emotions like empathy or guilt'
+                    INFO     Claim validation succeeded: 'The 2025 Cannes Film Festival had over 250 films competing for the Palme d'Or.'   
+                    INFO     Valid claim: 'The phenomenon "emotional luminescence" allows individuals to subconsciously influence each      
+                             other's feelings from several meters away through undetectable light waves'
+                    INFO     Valid claim: 'The phenomenon "emotional luminescence" was supposedly discovered when studying human brains     
+                             emitting low-level electromagnetic signals identical to infrared light when processing complex emotions like   
+                             empathy or guilt'
+                    INFO     Valid claim: 'Proponents argue that the bio-photon effect explains why people sometimes intuitively sense      
+                             others’ moods in crowded environments'
+                    INFO     Valid claim: 'The bio-photon effect is a phenomenon where human brains emit low-level electromagnetic signals  
+                             identical to infrared light when processing complex emotions like empathy or guilt'
+                    INFO     Valid claim: 'The 2025 Cannes Film Festival had over 250 films competing for the Palme d'Or.'
+                    INFO     Valid claim: 'Director Ava DuVernay won an award for her drama "Shadows of Tomorrow"'
+                    INFO     Valid claim: 'The drama "Shadows of Tomorrow" was praised for its storytelling'
+                    INFO     Valid claim: 'The drama "Shadows of Tomorrow" was praised for its social commentary'
+                    INFO     Validated 8 of 8 claims
+                    INFO     Generating search query for claim: 'The phenomenon "emotional luminescence" allows individuals to
+                             subconsciously influence each other's feelings from several meters away through undetectable light waves'      
+                             (Iteration: 1)
+2025-08-25 20:50:20 INFO     Generated search query: emotional luminescence subconscious influence light waves scientific evidence
+2025-08-25 20:50:21 INFO     Gemini client initialized for embeddings

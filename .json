@@ -1,0 +1,43 @@
+{
+    {
+    "answer_text": "The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes. The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.",
+    "contextual_sentences": [
+        {
+            "original_sentence": "The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.",
+            "context_for_llm": "\n[Sentence of Interest for current task:]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Following Sentences:]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.",
+            "metadata": null,
+            "original_index": 0
+        },
+        {
+            "original_sentence": "The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.",
+            "context_for_llm": "\n[Preceding Sentences:]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Sentence of Interest for current task:]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.",
+            "metadata": null,
+            "original_index": 1
+        }
+    ]
+},
+{
+    'answer_text': 'The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes. The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', 
+    'contextual_sentences': [
+        ContextualSentence(
+        original_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', context_for_llm='\n[Sentence of Interest for current task:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Following Sentences:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', metadata=None, original_index=0), ContextualSentence(original_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', context_for_llm='\n[Preceding Sentences:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Sentence of Interest for current task:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', metadata=None, original_index=1)
+    ], 'selected_contents': [SelectedContent(processed_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', original_context_item=ContextualSentence(original_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', context_for_llm='\n[Sentence of Interest for current task:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and indusvers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', original_context_item=ContextualSentence(original_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', context_for_llm='\n[Sentence of Interest for current task:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Following Sentences:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', metadata=None, original_index=0)), SelectedContent(processed_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', original_context_item=ContextualSentence(original_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', context_for_llm='\n[Preceding Sentences:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Sentence of Interest for current task:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', metadata=None, original_index=1))
+    ], 'disambiguated_contents': [DisambiguatedContent(disambiguated_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', original_selected_item=SelectedContent(processed_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', original_context_item=ContextualSentence(original_sentence='The primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.', context_for_llm='\n[Sentence of Interest for current task:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Following Sentences:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', metadata=None, original_index=0))), DisambiguatedContent(disambiguated_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', original_selected_item=SelectedContent(processed_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', original_context_item=ContextualSentence(original_sentence='The IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', 
+    context_for_llm='\n[Preceding Sentences:
+        ]\nThe primary drivers of climate change include greenhouse gas emissions from burning fossil fuels, deforestation, and industrial processes.\n\n[Sentence of Interest for current task:
+        ]\nThe IPCC report indicates that human activities have caused approximately 1.0°C of global warming above pre-industrial levels.', 
+    metadata=None, original_index=1)))
+    ]
+}
+}
