@@ -1,191 +1,114 @@
-# Athena - Misinformation Detection Platform
+## Athena Misinformation Verifier
 
-Athena is an advanced platform designed to detect, analyze, and combat misinformation using state-of-the-art machine learning techniques and knowledge graphs.
+A comprehensive tool for verifying claims and detecting misinformation using AI and fact-checking techniques.
 
 ## Features
 
-- **Misinformation Detection**: Identify potentially false or misleading content using ML models
-- **Source Verification**: Verify the credibility of information sources with knowledge graphs
-- **Educational Content**: Access resources to improve media literacy and critical thinking
-- **Real-time Analysis**: Get instant feedback on content authenticity via API
-- **Cross-platform Mobile App**: React Native app for iOS, Android, and web
-- **RESTful API**: FastAPI backend with comprehensive endpoints
+- **AI-Powered Fact Checking**: Utilizes advanced NLP models to analyze and verify claims
+- **Source Verification**: Cross-references information with trusted sources
+- **Real-time Analysis**: Provides quick assessment of claims
+- **User-friendly Interface**: Intuitive web and mobile interfaces
+- **API Access**: Easy integration with other systems
+- **Extensible Architecture**: Modular design for adding new verification methods
 
-## Project Structure
-
-```
-.
-├── backend/               # Python FastAPI backend
-│   ├── main.py           # FastAPI application entry point
-│   ├── requirements.txt   # Python dependencies
-│   └── src/
-│       ├── api/          # API route handlers
-│       │   ├── misinformation.py  # Misinformation analysis endpoints
-│       │   └── education.py       # Educational content endpoints
-│       ├── models/       # ML models and data models
-│       └── utils/        # Utility functions
-├── datasets/              # Sample datasets for training and testing
-├── docs/                  # Documentation
-├── frontend/              # React Native mobile application
-│   ├── app/              # Expo Router screens and navigation
-│   │   ├── (tabs)/       # Tab-based navigation
-│   │   │   ├── index.tsx # Home screen
-│   │   │   ├── analyze.tsx # Text analysis screen
-│   │   │   ├── learn.tsx # Educational content screen
-│   │   │   └── explore.tsx # Explore features screen
-│   │   └── content/      # Content detail screens
-│   ├── components/       # Reusable UI components
-│   ├── services/         # API client and services
-│   └── package.json      # Node.js dependencies
-├── gcp_integration/       # Google Cloud Platform integration
-└── README.md              # This file
-```
-
-## Getting Started
+## Installation
 
 ### Prerequisites
+- Python 3.9+
+- Node.js 18+ (for frontend)
+- pip (Python package manager)
+- npm or yarn (Node package manager)
 
-- Python 3.8+
-- Node.js 18+ and npm
-- Expo CLI (`npm install -g @expo/cli`)
-- Google Cloud SDK (for GCP integration)
-- Docker (optional, for containerization)
+### Backend Setup
 
-### Installation
-
-1. **Backend Setup**
+1. Clone the repository:
    ```bash
-   cd backend
+   git clone https://github.com/yourusername/Athena-MisinfoVerifier.git
+   cd Athena-MisinfoVerifier
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   # Windows
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   .\venv\Scripts\activate
+   
+   # macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install Python dependencies:
+   ```bash
    pip install -r requirements.txt
    ```
 
-2. **Frontend Setup**
+4. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   - Update the values with your API keys and configuration
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
    ```bash
    cd frontend
+   ```
+
+2. Install Node.js dependencies:
+   ```bash
    npm install
+   # or
+   yarn install
    ```
 
-3. **Environment Variables**
-   Set the API base URL for the frontend:
-   ```bash
-   # Windows PowerShell
-   $env:EXPO_PUBLIC_API_BASE_URL="http://localhost:8000"
-   
-   # Windows Command Prompt
-   set EXPO_PUBLIC_API_BASE_URL=http://localhost:8000
-   
-   # macOS/Linux
-   export EXPO_PUBLIC_API_BASE_URL=http://localhost:8000
-   ```
+## Running the Application
 
-4. **Run the Backend**
+### Development Mode
+
+1. Start the backend server (from project root):
    ```bash
-   cd backend
    python main.py
    ```
-   The backend will start on http://localhost:8000
 
-5. **Run the Frontend**
+2. In a separate terminal, start the frontend development server:
    ```bash
    cd frontend
    npm start
+   # or
+   yarn start
    ```
-   This will open the Expo development server. You can:
-   - Press `w` to open in web browser
-   - Scan QR code with Expo Go app on mobile
-   - Press `a` for Android emulator
-   - Press `i` for iOS simulator
 
-## API Endpoints
+3. Open [http://localhost:19006](http://localhost:19006) in your browser
 
-### Misinformation Analysis
-- `POST /api/misinformation/analyze` - Analyze text for misinformation
-  - Request: `{ "text": "string", "context": {} }`
-  - Response: `{ "is_misinformation": boolean, "confidence": number, "explanation": "string", "sources": [] }`
+### Production Mode
 
-### Educational Content
-- `GET /api/education/content` - List educational content with optional filters
-  - Query params: `category`, `difficulty`, `tags`
-- `GET /api/education/content/{id}` - Get specific educational content by ID
+1. Build the frontend:
+   ```bash
+   cd frontend
+   npm run build
+   # or
+   yarn build
+   ```
 
-## Frontend Features
-
-### Screens
-- **Home**: Welcome screen with app overview
-- **Analyze**: Submit text for misinformation analysis
-  - Large text input area
-  - Real-time analysis results
-  - Confidence scores and explanations
-- **Learn**: Browse educational content
-  - Filter by category and difficulty
-  - Content cards with metadata
-  - Detail view for each piece of content
-- **Explore**: Discover app features and documentation
-
-### Components
-- **ResultCard**: Displays analysis results with color coding
-- **ContentCard**: Shows educational content summaries
-- **Loading**: Centered loading spinner
+2. Start the production server:
+   ```bash
+   python main.py
+   ```
 
 ## API Documentation
 
-Once the backend is running, access the interactive API documentation at:
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
-## Testing
-
-Run the test suite with:
-```bash
-# Backend tests
-cd backend
-pytest
-
-# Frontend tests (if configured)
-cd frontend
-npm test
-```
-
-## Deployment
-
-### Docker
-
-Build and run with Docker:
-```bash
-docker-compose up --build
-```
-
-### Google Cloud Platform
-
-1. Set up a Google Cloud project and enable required APIs
-2. Configure service account credentials
-3. Deploy using Cloud Run:
-   ```bash
-   gcloud run deploy athena-backend --source .
-   ```
-
-### Frontend Deployment
-
-Build the production app:
-```bash
-cd frontend
-npm run build
-```
-
-For mobile app stores:
-```bash
-expo build:android  # Android APK
-expo build:ios      # iOS build
-```
+Once the application is running, you can access:
+- Interactive API documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
+- Alternative documentation: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## Contributing
 
+Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ## License
@@ -194,6 +117,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built with FastAPI and React Native (Expo)
-- Utilizes Google Cloud Platform services
-- Inspired by the need for better misinformation detection tools
+- Built with FastAPI and React Native/Expo
+- Uses Google's Gemini AI for claim verification
+- Inspired by the need for reliable fact-checking tools

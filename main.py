@@ -1,30 +1,73 @@
-from fastapi import FastAPI, Depends, HTTPException
+import uvicorn
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from src.api.misinformation import router as misinformation_router
-from src.api.education import router as education_router
-from src.api.endpoints import reports as reports_router
+from typing import List, Dict, Any
+import logging
+import os
+from dotenv import load_dotenv
 
-app = FastAPI(title="Athena API", version="1.0.0")
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('logs/app.log')
+    ]
+)
+
+logger = logging.getLogger(__name__)
+
+# Initialize FastAPI app
+app = FastAPI(
+    title="Athena Misinformation Verifier API",
+    description="API for verifying misinformation claims using AI",
+    version="1.0.0"
+)
 
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # In production, replace with specific origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Include routers
-app.include_router(misinformation_router, prefix="/api/misinformation", tags=["misinformation"])
-app.include_router(education_router, prefix="/api/education", tags=["education"])
-app.include_router(reports_router.router, prefix="/api/reports", tags=["reports"])
+# Mount static files for frontend
+app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
 
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for monitoring"""
+    return {"status": "healthy", "version": "1.0.0"}
+
+# Root endpoint
 @app.get("/")
 async def root():
-    return {"message": "Welcome to Athena API"}
+    return {
+        "message": "Welcome to Athena Misinformation Verifier API",
+        "docs": "/docs",
+        "redoc": "/redoc"
+    }
+
+# Import and include routers
+from fact_checker.agent import router as fact_checker_router
+app.include_router(fact_checker_router, prefix="/api/fact-check", tags=["Fact Checking"])
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    # Create logs directory if it doesn't exist
+    os.makedirs("logs", exist_ok=True)
+    
+    # Run the FastAPI application
+    uvicorn.run(
+        "main:app",
+        host=os.getenv("HOST", "0.0.0.0"),
+        port=int(os.getenv("PORT", 8000)),
+        reload=os.getenv("DEBUG", "true").lower() == "true"
+    )
