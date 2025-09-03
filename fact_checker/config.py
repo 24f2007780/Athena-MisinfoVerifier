@@ -62,10 +62,10 @@ class Config:
 ENV_TEMPLATE = """
 # Google Cloud Platform Configuration
 # Get these from: https://console.cloud.google.com/
-GCP_SEARCH_API_KEY=AIzaSyDUQQ1Q12Wgk869xgBGDYKPgIDZ3vvkycs
-GCP_CUSTOM_SEARCH_ENGINE_ID=c3f83a3581b52415b
-GCP_PROJECT_ID=pro-landing-470107-p4
-GCP_LOCATION=us-central1
+GCP_SEARCH_API_KEY=
+GCP_CUSTOM_SEARCH_ENGINE_ID=
+GCP_PROJECT_ID=
+GCP_LOCATION=
 
 # Evidence Retrieval Settings
 DEFAULT_SEARCH_RESULTS=10
