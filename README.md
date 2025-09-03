@@ -23,7 +23,7 @@ A comprehensive tool for verifying claims and detecting misinformation using AI 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Athena-MisinfoVerifier.git
+   git clone https://github.com/24f2007780/Athena-MisinfoVerifier.git
    cd Athena-MisinfoVerifier
    ```
 
